@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+header .caixa {
+    background: url(../images/topo.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px;
+    height: 300px;
+    display: block;
+    justify-content: center;
+}
+
+.logo {
+    transform: translate(1%, -49%);
+    height: 285px;
+}
+
+nav {
+    text-align: center;
+
+}
+
+.borda-home {
+    border: 3px solid #fff;
+    border-left: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    background-color: darkgreen;
+    border-radius: 15px 15px 0 0;
+    display: inline-block;
+    transform: translate(18%, -127%);
+    padding: 10px 68px 23px 72px;
+}
+
+.borda-sobre {
+    border: 3px solid #fff;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    background-color: #7ac142;
+    border-radius: 15px;
+    display: inline-block;
+    transform: translate(15%, -127%);
+    padding: 10px 62px 23px 62px;
+}
+
+.borda-cardapio {
+
+    border: 3px solid #fff;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    background-color: #E46C27;
+    border-radius: 15px;
+    display: inline-block;
+    transform: translate(10%, -127%);
+    padding: 10px 62px 23px 62px;
+}
+
+.borda-salao {
+    border: 3px solid #fff;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    background-color: #35A8E0;
+    border-radius: 15px;
+    display: inline-block;
+    transform: translate(7%, -127%);
+    padding: 10px 62px 23px 62px;
+   
+}
+
+.borda-decoraçao {
+    border: 3px solid #fff;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    background-color: mediumvioletred;
+    border-radius: 15px;
+    display: inline-block;
+    transform: translate(3%, -127%);
+    padding: 10px 51px 23px 43px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.borda-contato {
+    border: 3px solid #fff;
+    font-weight: bold;
+    border-right: none;
+    font-size: 25px;
+    color: #fff;
+    background-color:#7E418F;
+    border-radius: 15px 15px 0 0;
+    display: inline-block;
+    transform: translate(0%, -127%);
+    padding: 10px 58px 23px 61px;
+}
+
+.banner {
+    width: 74%;
+    transform: translate(19%, -22%);
+    border-radius:1px 1px 0px 0px;
+    margin: 15px auto;
+}
+
+.cardapio h3 {
+    font-weight: bold;
+    color: #7ac142;
+    transform: translate(94%, 61%);
+    font-size: 33px;
+    text-shadow: -1px -2px 6px black;
+}
+
+.brinquedos h3 {
+    font-weight: bold;
+    color: #7E418F;
+    transform: translate(72%, 60%);
+    font-size: 34px;
+    text-shadow: -1px -1px 8px #fff;
+
+}
+
+.salão h3 {
+    color: #E46C27;
+    transform: translate(74%, 60%);
+    font-size: 33px;
+    font-weight: bold;
+    text-shadow: 1px -2px 5px #fff;
+}
+
+.cardapio,
+.brinquedos,
+.salão {
+    font-weight: bold;
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+
+}
+
+.completar .cardapio {
+    background-color: #7E418F;
+    float: left;
+    transform: translate(84%, -103%);
+    width: 400px;
+    height: 220px;
+
+}
+
+.completar .brinquedos {
+    background-color: #E46C27;
+    float: left;
+    transform: translate(87%, -103%);
+    width: 405px;
+    height: 198px;
+    padding: 10px 10px 10px 0;
+}
+
+.completar .salão {
+    background-color: #7ac142;
+    float: left;
+    transform: translate(94%, -102%);
+    width: 407px;
+    height: 201px;
+    padding: 10px 11px 13px 0;
+}
+
+
+.começo {
+    transform: translate(-4%, 24%);
+    line-height: 1;
+    text-shadow: -2px -1px 5px black;
+}
+
+.meio {
+    transform: translate(-35%, 24%);
+    line-height: 1;
+    text-shadow: -2px -2px 5px black;
+}
+
+.fim {
+    transform: translate(-18%, 24%);
+    line-height: 1;
+    text-shadow: 2px -1px 5px black;
+}
+
+
+.estrela h2 {
+    color: #7E418F;
+    font-size: 33px;
+    transform: translate(18%, -440%);
+}
+
+.contato {
+    font-size: 35px;
+    color: #E46C27;
+    font-weight: bold;
+    line-height: 2;
+    transform: translate(-12%, 165%);
+    font-size: 33px;
+    text-align:justify;
+}
+
+.formulario-principal {
+    text-align: justify;
+    transform: translate(-5%, 62%);
+    margin-bottom: 2%;
+    font-size: 19px;
+}
+
+
+.texto {
+    width: 93% auto;
+    font-size: 20px;
+    text-align: justify;
+    margin:0px;
+    padding: 0px;
+    transform: translate(-13%,186%);
+
+}
+
+.Enviar {
+    font-size: 22px;
+    background-color: #E46C27;
+    color: bisque;
+    padding: 10px 20px 10px 20px;
+    border: 0;
+    border-radius: 0px;
+    margin: 2px 15px;
+    cursor: pointer;
+    margin-bottom: 0%;
+    transform: translate(43%, -21%);
+}
+
+.escritor {
+    width: 32%;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(57%, -90%);
+}
+
+.formulario-principal .nome {
+    transform: translate(-22%, 111%);
+
+}
+.formulario-principal .celular {
+    width: 62%;
+    transform: translate(91%, -18%);
+}
+.formulario-principal .receber{
+    width:25%;
+    transform: translate(24%, 23%);
+}
+.formulario-principal .vender{
+    width: 4%;
+}
+.formulario-principal .mensagem {
+    width:99%;
+    transform: translate(57%,-12%);
+}
+.final {
+    transform: translate(5%, 3%);
+    line-height: 2.5;
+    word-spacing: 3px;
+
+}
+
+
+
+.required {
+    width: 82%;
+    border-radius: 0px;
+    margin: 0px 8px;
+    margin-bottom: 0%;
+    padding: 10px 0px 0px 10px;
+
+}
+
+.receber {
+    border-radius: 0px;
+    margin:1px;
+    margin-bottom: 0%;
+    padding: 10px 0px 0px 10px;
+}
+
+
+.vender {
+    border-radius: 0px;
+    margin: 3px -5px;
+    margin-bottom: 0%;
+    padding: 10px 0px 0px 10px;
+    transform: translate(-313px, 7px);
+}
+
+.utilizar {
+    width:20% ;
+    border-radius: 0px;
+    margin: 3px 10px;
+    margin-bottom: -2%;
+    padding: 10px 0px 0px 10px;
+
+}
+
+
+
+footer,
+footer a {
+    color: #fff;
+    text-decoration: solid;
+    justify-content: space-around;
+}
+
+footer {
+    background: url(../images/footer.jpg);
+    background-repeat: repeat-x;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.facebook {
+    transform: translate(114%, -3%);
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    top: 0;
+}
+
+.nome {
+    display: flex;
+}
